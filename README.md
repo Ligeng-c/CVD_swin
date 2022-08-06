@@ -19,6 +19,6 @@ the model will be saved in ./saved_models
 the images will be saved in ./images
 
 ### result in paper.
-
-
+![image](https://github.com/Ligeng-c/CVD_swin/blob/main/readme_imgs/P_image_1.png)
+![image](https://github.com/Ligeng-c/CVD_swin/blob/main/readme_imgs/D_image_1.png)
 
