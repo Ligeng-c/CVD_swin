@@ -208,9 +208,9 @@ transforms_ = [
 # )
 
 if CVD_type == 1:
-    data_path = "/public/CHEN/Color_cvd_D_experiment_10000"
+    data_path = "./CVDdataset/Color_cvd_D_experiment_10000"
 else:
-    data_path = "/public/CHEN/Color_cvd_P_experiment_10000"
+    data_path = "./CVDdataset/Color_cvd_P_experiment_10000"
 
 dataloader = DataLoader(
     ImageDataset_single(data_path, transforms_=transforms_, mode ="None"),
@@ -225,7 +225,7 @@ dataloader = DataLoader(
 #     num_workers=1,
 # )
 val_dataloader = DataLoader(
-    ImageDataset_single("/public/CHEN/Color_cvd_P_experiment_10000", transforms_=transforms_, mode ="None"),
+    ImageDataset_single("data_path", transforms_=transforms_, mode ="None"),
     batch_size=20,
     shuffle=True,
     num_workers=8,
