@@ -3,7 +3,7 @@ our paper " Image Recoloring for Color Vision Deficiency Compensation Using Swin
 
 
 
-##How to train
+## How to train
 CVD, recoloring 
 
 
